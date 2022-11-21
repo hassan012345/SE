@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Face Recognition</title>
+        <meta charset="utf-8" lang="eng">
+    </head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <body>
+        <div id="header">
+        <img id="uetlogo" src="uet-logo.jpg" alt="University of Engineering and Technology logo">
+        <h1>University of Engineering and Technology, KSK</h1>
+        </div>
+
+        <form  id="admin-log" action="" method="get">
+            <label for="admin-mail">
+                Email:
+                <input type="email" name="admin-mail" id="admin">
+            </label>
+            <label for="admin-pass">
+                Password
+                <input type="password" name="admin-pass" id="password">
+            </label>
+            <div class="g-recaptcha" data-sitekey="6LfkvpIcAAAAAF9rfowxQ9fdE8Wp6qf6jdM40L3g" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback">
+                <div style="width: 304px; height: 78px;">
+                    <div>
+                        <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfkvpIcAAAAAF9rfowxQ9fdE8Wp6qf6jdM40L3g&amp;co=aHR0cHM6Ly9sbXMudWV0LmVkdS5wazo0NDM.&amp;hl=en&amp;v=Km9gKuG06He-isPsP6saG8cn&amp;size=normal&amp;cb=1k155rln53sb" width="304" height="78" role="presentation" name="a-1czw92jcehg2" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox">
+                </iframe>
+                </div>
+                <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;">
+                </textarea>
+            </div>
+            <iframe style="display: none;">
+            </iframe>
+        </div>
+        <div id="button-area">
+        <button id="forget" type="button">Forget Password</button>
+        <button id="log-in" type="submit">Log In</button>
+        </div>
+        </form>
+        
+
+
+    <footer>
+        <p>All Rights Reserved</p>
+    </footer>
+    </body>
+</html>
