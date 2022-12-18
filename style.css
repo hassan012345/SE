@@ -1,11 +1,11 @@
 body {
-    width: 98%;
-    margin: 10px auto;
+    width: 100%;
 }
-h1 {
+#uet-heading{ 
+    font-size: xx-large;
     position: absolute;
-    right: 3%;
-    top: 7%;
+    bottom: 40%;
+    left: 35%;
 }
 div#picture{
     border: 1px solid black;
@@ -15,12 +15,13 @@ div#picture{
     right: 100px;
     top: 228px;
     border-radius: 28px;
-    text-align: center;
+    box-sizing: border-box;
+    padding: 50px;
     background-color: darkslateblue;
     color: white;
 }
 form {
-width: 50%;
+width: 35%;
 margin-left: 30px;
 }
 
@@ -32,20 +33,22 @@ input {
     line-height: 3;
     border-radius: 6px;
 }
+
 #logo {
-    max-width: 150px    ;
+    max-width: 100%;
 }
 #header {
+    height: 150px;
     border: 1px solid gray;
-    margin-bottom: 60px;
-    background-color: lightgray;
+    margin-bottom: 60px;    
+    background-color: gray;
+    position: relative;
 }
 label {
     font-weight: bold;
 }
 div#progress{
     margin-right: 40%;
-    float: right;
 
 }
 div#box{
@@ -54,18 +57,10 @@ div#box{
     border: 1px solid black ;
     margin-top: 20px;
 }
-footer {
-    background-color: blue;
-    color: white;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    top: 110%;
-}
 
 form#admin-log{
     width: 40%;
-    margin: auto;
+    margin: auto;   
 }
 
 div.g-recaptcha{
@@ -89,11 +84,8 @@ div#button-area{
     float: right;
 }
 ul {
-    position: absolute;
-    top: 101px;
-    left: 159px;
-    background-color: black;
-    width: 617px;
+    background-color: lightgray;
+    margin-top: -60px;
 }
 li {
     display: inline;
@@ -102,4 +94,15 @@ li {
     padding: 9px;
     border-right: 1px solid;
     line-height: 44px;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 100%;
 }
